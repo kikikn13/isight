@@ -41,7 +41,7 @@ class PageOne extends StatelessWidget {
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset('assets/images/your_eyes.png'),
+                    child: Image.asset('assets/pictures/your_eyes.png'),
                   ),
                   SizedBox(
                     height: 20.0,
