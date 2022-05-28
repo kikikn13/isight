@@ -40,7 +40,7 @@ class PageThree extends StatelessWidget {
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset('assets/images/visionskills.png'),
+                    child: Image.asset('assets/pictures/visionskills.png'),
                   ),
                   SizedBox(
                     height: 20.0,
