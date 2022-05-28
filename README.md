@@ -30,8 +30,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-This is a Flutter app that uses [Firebase ML vision](https://firebase.google.com/docs/ml), [Tensorflow Lite](https://www.tensorflow.org/lite), and in-built speech recognition and text-to-speech capabilities to aid the visually impaired. It uses Firebase ML vision to detect human faces, and Tensorflow Lite model implementations of [MobileFaceNets](https://arxiv.org/abs/1804.07573) and [SSD MobileNetV2](https://arxiv.org/abs/1801.04381) to perform face recognition and object detection respectively. Users can authenticate with fingerprint, issue voice commands to perform face recognition, object detection, OCR. The app responds appropriately via voice output for every command issued. 
+The mobile application consists of four major components as shown here. These are the OpenCV Java Module, User Interface, Android Module and OpenCV C++ Module. The OpenCV Java Module consists of the Detection System and functions for interfacing with the Android Module. 
 
 ### Prerequisites
 
