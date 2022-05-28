@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+//splash screen design
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/background_color" />
+
+    //image assets inserted
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/launch" />
+    </item>
+    <item  android:bottom="25dp" >
+        <bitmap
+            android:gravity="bottom"
+            android:src="@drawable/owner" />
+    </item>
+
+</layer-list>
